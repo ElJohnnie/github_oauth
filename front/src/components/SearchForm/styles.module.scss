@@ -1,0 +1,38 @@
+.formWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formWrapper__form {
+    .form__input {
+        border: 0;
+        padding: 7px 14px;
+        color: #8d8d99;
+        font-size: 14px;
+        line-height: 24px;
+        &:focus {
+            outline: 0;
+        }
+        &::placeholder {
+            color: #8d8d99;
+        }
+    }
+    .form__button {
+        background: #ff008e;
+        padding: 0 24px;
+        border: 0;
+        margin: 24px;
+        cursor: pointer;
+        height: 40px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }
+}

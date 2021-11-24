@@ -1,0 +1,50 @@
+.userWrapper {
+    padding: 16px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.userWrapper__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .information__userImg {
+        padding: 3px;
+        background: linear-gradient(100deg, #ff008e 0%, #ffcd1e 100%);
+        border-radius: 50%;
+        line-height: 0;
+        img {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            border: 6px solid #121214;
+        }
+    }
+    .information__userName {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 16px;
+    }
+    .information__userGithub {
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        color: #c4c4cc;
+        svg {
+            margin-right: 8px;
+        }
+    }
+    .information__connect {
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        .connect__follow {
+            padding: 8px;
+            color: #c4c4cc;
+        }
+    }
+}

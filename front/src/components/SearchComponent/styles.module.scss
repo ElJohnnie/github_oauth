@@ -1,0 +1,26 @@
+.searchComponentWrapper {
+    padding: 16px;
+    align-self: flex-start;
+    margin-top: 6px;
+    display: flex;
+    max-width: 60vw;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    .searchComponentWrapper__navbar {
+        display: flex;
+        flex-direction: row;
+        .navbar__navlink {
+            padding: 0px 24px;
+            text-decoration: none;
+            color: #c4c4cc;
+            &:hover {
+                filter: brightness(45%);
+            }
+            .navlink__selected {
+                filter: brightness(45%);
+            }
+        }
+    }
+}
