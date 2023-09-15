@@ -1,17 +1,20 @@
-<h1> Projeto de consumo da API de Autenticação do Github</h1>
 
-<p>Quando criado o seu OAuth app, crie um .env na raiz do server contendo as seguintes informações:</p>
+![image](https://github.com/ElJohnnie/github_oauth/assets/54804502/f43a7b27-2ad7-420f-a271-5ecbe2055506)
 
-<ul>
-  <li>GITHUB_CLIENT_SECRET= Contendo o secret criado no app</li>
-  <li>GITHUB_CLIENT_ID= Contendo o ID</li>
-  <li>JWT_SECRET= Contendo uma numeração aleatória de sua preferência</li>
-</ul>
+<h1>Github Authentication API consumption project</h1>
 
-<p>Na raiz do front, crie um .env com a seguinte variável:</p>
+<p>create an .env in the server root containing the following information:</p>
 
 <ul>
-  <li>VITE_GITHUB_ID= Contendo o ID criado no app</li>
+  <li>GITHUB_CLIENT_SECRET= Containing the secret created in the app</li>
+  <li>GITHUB_CLIENT_ID= Containing the ID</li>
+  <li>JWT_SECRET= Containing a random number of your choice</li>
 </ul>
 
-<p>Instale todos os pacotes em cada parte do projeto (front & server) e rode ambos simultaneamente com "npm run dev"</p>
+<p>In the root of the front, create a .env with the following variable:</p>
+
+<ul>
+  <li>VITE_GITHUB_ID= Containing the ID created in the app</li>
+</ul>
+
+<p>Install all packages in each part of the project (front & server) and run both simultaneously with "npm run dev"</p>
