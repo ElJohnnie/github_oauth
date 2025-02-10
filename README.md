@@ -1,20 +1,32 @@
+![GitHub OAuth](https://github.com/ElJohnnie/github_oauth/assets/54804502/f43a7b27-2ad7-420f-a271-5ecbe2055506)
 
-![image](https://github.com/ElJohnnie/github_oauth/assets/54804502/f43a7b27-2ad7-420f-a271-5ecbe2055506)
+# GitHub Authentication API Consumption Project
 
-<h1>Github Authentication API consumption project</h1>
+## 🔑 Setting Up OAuth on GitHub
+Access **[GitHub Developer Settings](https://github.com/settings/developers)** to create an OAuth App and obtain the required credentials.
 
-<p>create an .env in the server root containing the following information:</p>
 
-<ul>
-  <li>GITHUB_CLIENT_SECRET= Containing the secret created in the app</li>
-  <li>GITHUB_CLIENT_ID= Containing the ID</li>
-  <li>JWT_SECRET= Containing a random number of your choice</li>
-</ul>
 
-<p>In the root of the front, create a .env with the following variable:</p>
+## 🛠 Server Configuration
+Create a **`.env`** file in the server root containing the following information:
 
-<ul>
-  <li>VITE_GITHUB_ID= Containing the ID created in the app</li>
-</ul>
+```env
+GITHUB_CLIENT_SECRET= # Contains the secret generated in the GitHub app
+GITHUB_CLIENT_ID= # Contains the app ID from GitHub
+JWT_SECRET= # Contains a random secret key of your choice
+```
 
-<p>Install all packages in each part of the project (front & server) and run both simultaneously with "npm run dev"</p>
+## 🖥 Client Configuration
+In the client root, create a **`.env`** file with the following variable:
+
+```env
+VITE_GITHUB_ID= # Contains the app ID from GitHub
+```
+
+## 📦 Installing Dependencies and Running the Project
+
+Install all necessary packages in both the client and server parts of the project. Then, run both simultaneously using:
+
+```bash
+npm run dev
+```
